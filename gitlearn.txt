@@ -1,0 +1,22 @@
+This is a simple text file to learn git commands.
+
+after git installation
+right click to open the folder in git bash
+
+create a file using touch 
+touch gitlearn.txt
+
+initialise git using:
+git init
+
+and create .gitignore
+touch .gitignore
+# use gitignore to add files you want the repo to ignore
+
+configuring email address and username
+git config --global user.name 'Koraavo'
+git config --global user.email 'kinjalvoraa@gmail.com'
+
+to check all the settings:
+git config --list
+(make sure, email and username are listed)
