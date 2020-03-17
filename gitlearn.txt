@@ -41,16 +41,11 @@ if you make changes, add it again using git add and then commit it again
 
 # Understanding_branch
 	git branch [branch name]
-	git checkout [branchname] - make changes in the branch
-
-to check all the settings:
-git config --list
-(make sure, email and username are listed)
-
-help on git:
-$ git help <verb>
-$ git <verb> --help
-$ man git-<verb>
-
-$ git help config
+	git checkout [branchname] - make changes in the branch/ create new file etc
+	
+	# Switch to master branch
+	git checkout master
+		# merge the changes, if all is good
+		git merge [branch name]
+	
 
