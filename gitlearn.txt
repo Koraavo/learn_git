@@ -7,6 +7,16 @@ $ man git-<verb>
 
 $ git help config
 
+$ git --version 
+
+#configuring email address and username
+	git config --global user.name 'Koraavo'
+	git config --global user.email 'kinjalvoraa@gmail.com'
+
+#to check all the settings:
+	git config --list
+	(make sure, email and username are listed)
+
 after git installation
 right click to open the folder in git bash
 
@@ -20,13 +30,6 @@ and create .gitignore with
 	touch .gitignore
 # use gitignore to add files you want the repo to ignore
 
-#configuring email address and username
-	git config --global user.name 'Koraavo'
-	git config --global user.email 'kinjalvoraa@gmail.com'
-
-#to check all the settings:
-	git config --list
-	(make sure, email and username are listed)
 
 # add files that you want to upload/commit
 	git add .
