@@ -56,12 +56,11 @@ if you make changes, add it again using git add and then commit it again
 
 # adding a remote git 
 	git remote add origin https://github.com/Koraavo/learn_git.git
+	or
+	git remote add [nickname] [URL address]
 
 # pushing/adding things to the remote repo
 	git push -u origin master
 
 # if there are multiple people working on the same project and everything needs to be merged
 	git pull
-
-	
-
