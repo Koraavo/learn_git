@@ -55,18 +55,12 @@ NOTE: if you make changes, add it again using git add and then commit it again
 # remove everything
 	git reset
 
-
-# Understanding_branch
-	$ git branch [branch name]
-	$ git checkout [branchname] - make changes in the branch/ create new file etc
-	
-	# Switch to master branch
-	$ git checkout master
-		# merge the changes, if all is good
-		$ git merge [branch name]
-
 # checking if there is a remote repo 
 	$ git remote
+
+# clone a remote repo
+	git clone <url> <where to clone> 
+	example: git clone https://github.com/Koraavo/learn_git . # dot means current dir
 
 # adding a remote git 
 	$ git remote add origin https://github.com/Koraavo/learn_git.git
@@ -78,3 +72,12 @@ NOTE: if you make changes, add it again using git add and then commit it again
 
 # if there are multiple people working on the same project and everything needs to be merged
 	$ git pull
+
+# Understanding_branch
+	$ git branch [branch name]
+	$ git checkout [branchname] - make changes in the branch/ create new file etc
+	
+	# Switch to master branch
+	$ git checkout master
+		# merge the changes, if all is good
+		$ git merge [branch name]
