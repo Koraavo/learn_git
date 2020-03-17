@@ -32,3 +32,14 @@ if you make changes, add it again using git add and then commit it again
 check the status using 
 git status
 
+to check all the settings:
+git config --list
+(make sure, email and username are listed)
+
+help on git:
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+
+$ git help config
+
