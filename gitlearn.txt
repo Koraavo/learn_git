@@ -56,7 +56,5 @@ if you make changes, add it again using git add and then commit it again
 
 # pushing/adding things to the remote repo
 	git push -u origin master
-
-adding another test text
 	
 
