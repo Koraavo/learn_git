@@ -77,17 +77,24 @@ NOTE: if you make changes, add it again using git add and then commit it again
 	git diff
 	git add -A
 	git commit -m "message"
+
+# If there are multiple people working on the same project and everything needs to be merged
 	git pull origin master
 
 # pushing/adding things to the remote repo
 	$ git push -u origin master
 	$ git push origin master
 
-# if there are multiple people working on the same project and everything needs to be merged
-	$ git pull
 
 # Understanding_branch
+
+# creating a branch
 	$ git branch [branch name]
+
+# view all the branches
+	$ git branch
+
+# if you want to work on the branch
 	$ git checkout [branchname] - make changes in the branch/ create new file etc
 	
 	# Switch to master branch
