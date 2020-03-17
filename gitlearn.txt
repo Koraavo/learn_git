@@ -47,5 +47,14 @@ if you make changes, add it again using git add and then commit it again
 	git checkout master
 		# merge the changes, if all is good
 		git merge [branch name]
+
+# checking if there is a remote repo 
+	git remote
+
+# adding a remote git 
+	git remote add origin https://github.com/Koraavo/learn_git.git
+
+# pushing/adding things to the remote repo
+	git push -u origin master
 	
 
