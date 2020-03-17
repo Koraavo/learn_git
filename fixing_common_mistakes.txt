@@ -1,0 +1,46 @@
+# made changes and committed but realised we do not want those changes
+
+	$ git checkout [file name]
+
+# accidently messup the git message
+# modify without another commit
+# accidently left a file that we wanted to add to the commit
+
+	$ git commit --amend -m "Right Message"
+	$ git commit --amend [file name]
+
+# commits were made in the wrong branch
+	$ git log [to get the hash]
+	# copy the initial seven hash digits
+	# go to the branch with git checkout
+	$ git checkout [branch name]
+	$ git log
+	$ git cherry-pick [old hash name]
+	$ git log
+# commit brought on the branch it was supposed to be at
+but commit also exists on the master branch and we do not want it
+# you need to reset it
+# there are three kinds of reset - soft, mixed and hard
+
+	$ git checkout master
+	$ git log
+
+# git reset soft
+	copy the hash from the initial commit and then
+	$ git reset --soft [paste the hash]
+
+# git mixed
+	$ git reset [hash]
+resets for everything to go to the working directory
+
+# hard reset
+	$ git reset --hard [hash]
+
+# clean untracked files	
+	$ git clean -df 
+# d gets rid of untracked directories
+# f gets rid by force
+
+# what if reset deleted changes that you needed
+	$ git reflog
+
