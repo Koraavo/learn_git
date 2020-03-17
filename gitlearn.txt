@@ -67,6 +67,13 @@ NOTE: if you make changes, add it again using git add and then commit it again
 	or
 	$ git remote add [nickname] [URL address]
 
+# Viewing information about the remote repo
+	$ git remote -v
+
+# Viewing all branches in a repo (local and remote)
+	$ git branch -a
+
+
 # pushing/adding things to the remote repo
 	$ git push -u origin master
 
