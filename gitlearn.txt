@@ -1,11 +1,11 @@
 This is a simple text file to learn git commands.
 
-help on git:
-$ git help <verb>
-$ git <verb> --help
-$ man git-<verb>
+NEED HELP??????
 
-$ git help config
+	$ git help <verb>
+	$ git <verb> --help
+	$ man git-<verb>
+	$ git help config
 
 $ git --version 
 
