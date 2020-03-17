@@ -32,18 +32,29 @@ right click to open the folder in git bash
 	.DS-Store
 	*.pyc
 
+#check the status using 
+	$ git status
 
 # add files that you want to upload/commit
 	$ git add .
 	$ git add [file name]
+	$ git add -A (also adds everything)
 
+# commit changes
 	$ git commit 
 	$ git commit -m "Message here"
 
-if you make changes, add it again using git add and then commit it again
+or you can add and commit with one command:
+	$ git commit -a -m "Message here"
 
-#check the status using 
-	$ git status
+NOTE: if you make changes, add it again using git add and then commit it again
+
+# remove a file from staging area
+	git reset [file name]
+
+# remove everything
+	git reset
+
 
 # Understanding_branch
 	$ git branch [branch name]
