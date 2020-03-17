@@ -10,57 +10,59 @@ NEED HELP??????
 $ git --version 
 
 #configuring email address and username
-	git config --global user.name 'Koraavo'
-	git config --global user.email 'kinjalvoraa@gmail.com'
+	$ git config --global user.name 'Koraavo'
+	$ git config --global user.email 'kinjalvoraa@gmail.com'
 
 #to check all the settings:
-	git config --list
+	$ git config --list
 	(make sure, email and username are listed)
 
 after git installation
 right click to open the folder in git bash
 
 #create a file using touch 
-	touch gitlearn.txt
+	$ touch gitlearn.txt
 
 #initialise git using:
-	git init
+	$ git init
+	(using git in our directory)
 
 and create .gitignore with
-	touch .gitignore
+	$ touch .gitignore
 # use gitignore to add files you want the repo to ignore
 
 
 # add files that you want to upload/commit
-	git add .
-	git add [file name]
+	$ git add .
+	$ git add [file name]
 
-	git commit
+	$ git commit 
+	$ git commit -m "Message here"
 
 if you make changes, add it again using git add and then commit it again
 
 #check the status using 
-	git status
+	$ git status
 
 # Understanding_branch
-	git branch [branch name]
-	git checkout [branchname] - make changes in the branch/ create new file etc
+	$ git branch [branch name]
+	$ git checkout [branchname] - make changes in the branch/ create new file etc
 	
 	# Switch to master branch
-	git checkout master
+	$ git checkout master
 		# merge the changes, if all is good
-		git merge [branch name]
+		$ git merge [branch name]
 
 # checking if there is a remote repo 
-	git remote
+	$ git remote
 
 # adding a remote git 
-	git remote add origin https://github.com/Koraavo/learn_git.git
+	$ git remote add origin https://github.com/Koraavo/learn_git.git
 	or
-	git remote add [nickname] [URL address]
+	$ git remote add [nickname] [URL address]
 
 # pushing/adding things to the remote repo
-	git push -u origin master
+	$ git push -u origin master
 
 # if there are multiple people working on the same project and everything needs to be merged
-	git pull
+	$ git pull
