@@ -27,9 +27,10 @@ right click to open the folder in git bash
 	$ git init
 	(using git in our directory)
 
-and create .gitignore with
+# Create .gitignore to add files we want git to ignore with
 	$ touch .gitignore
-# use gitignore to add files you want the repo to ignore
+	.DS-Store
+	*.pyc
 
 
 # add files that you want to upload/commit
