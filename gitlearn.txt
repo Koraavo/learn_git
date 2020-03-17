@@ -3,20 +3,32 @@ This is a simple text file to learn git commands.
 after git installation
 right click to open the folder in git bash
 
-create a file using touch 
+#create a file using touch 
 touch gitlearn.txt
 
-initialise git using:
+#initialise git using:
 git init
 
 and create .gitignore
 touch .gitignore
 # use gitignore to add files you want the repo to ignore
 
-configuring email address and username
+#configuring email address and username
 git config --global user.name 'Koraavo'
 git config --global user.email 'kinjalvoraa@gmail.com'
 
-to check all the settings:
+#to check all the settings:
 git config --list
 (make sure, email and username are listed)
+
+# add files that you want to upload/commit
+git add .
+git add [file name]
+
+# git commit
+
+if you make changes, add it again using git add and then commit it again
+
+check the status using 
+git status
+
